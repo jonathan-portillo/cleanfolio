@@ -5,29 +5,17 @@
     {
       "src": "package.json",
       "use": "@vercel/node@16"
-    },
-    {
-      "src": "src/index.js",
-      "use": "@vercel/static-build"
     }
   ],
 
   "routes": [
     {
-      "src": "/static/(.*)",
-      "dest": "/static/$1"
-    },
-    {
-      "src": "/favicon.ico",
-      "dest": "/favicon.ico"
-    },
-    {
-      "src": "/manifest.json",
-      "dest": "/manifest.json"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
+      "src": "/index.js",
+      "dest": "/$1",
+      "headers": {
+        "Cache-Control": "s-maxage=1, stale-while-revalidate"
+      },
+      "continue": true
     }
   ]
 }
