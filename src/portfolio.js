@@ -34,8 +34,8 @@ const projects = [
     description:
       'Have you ever created a Reddit Post and wondered which subreddit it should be posted? Subreddit Predictor is a Full Stack Web App built through React and handled with Node.js and Express does all the work for you',
     stack: ['React', 'Redux', 'Node.js', 'Express'],
-    sourceCode: 'https://github.com/buildweek-pt-posthere1/front-end',
-    livePreview: 'https://subreddit-posthere-theta.vercel.app/',
+    sourceCode: 'https://github.com/posthere1',
+    livePreview: 'https://posthere1-fe.vercel.app',
   },
   {
     name: 'Merchant MarketPlace',
