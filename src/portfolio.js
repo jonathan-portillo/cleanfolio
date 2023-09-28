@@ -47,6 +47,23 @@ const projects = [
     livePreview:
       'https://github.com/BloomTech-Labs/PT17_merchant-marketplace-c-fe',
   },
+  {
+    name: 'Anywhere Fitness',
+    description:
+      'Be it an instructor looking to set up classes for clients to work out or just someone looking to find a place to work out, Anwwhere Fitness is a React Web Application that allows you to create or register classes',
+    stack: ['React', 'Redux', 'Javascript'],
+    sourceCode:
+      'https://github.com/jonathan-portillo/Front-End-Anywherefitness',
+    livePreview: 'https://front-end-anywherefitness-sable.vercel.app/',
+  },
+  {
+    name: 'Anywhere Fitness Backend',
+    description:
+      'A Node.js based backend for an app that allows you to create and register for fitness classes. This was built in conjection with Anywhere Fitness as a fullstack web application',
+    stack: ['Node.js', 'Express', 'Knex.js', 'SQLite'],
+    sourceCode: 'https://github.com/anywherefitness-tt187/Back-End',
+    livePreview: 'https://everywherefitness-9ab34b5731c6.herokuapp.com',
+  },
 ]
 
 const skills = [
