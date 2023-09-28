@@ -50,7 +50,7 @@ const projects = [
   {
     name: 'Anywhere Fitness',
     description:
-      'Be it an instructor looking to set up classes for clients to work out or just someone looking to find a place to work out, Anwwhere Fitness is a React Web Application that allows you to create or register classes',
+      'Be it an instructor looking to set up classes for clients to work out or just someone looking to find a place to work out, Anwhere Fitness is a React Web Application that allows you to create or register classes',
     stack: ['React', 'Redux', 'Javascript'],
     sourceCode:
       'https://github.com/jonathan-portillo/Front-End-Anywherefitness',
