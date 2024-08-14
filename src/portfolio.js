@@ -9,9 +9,9 @@ const about = {
   name: 'Jonathan Portillo',
   role: 'Full Stack Web Developer',
   description:
-    'I am a Afro-latino New York native full stack software developer.  I am well versed in React and Redux on the frontend where as I enjoy using Node.js/Express on the backend. I am looking to expand my knowledge in software and learn new languages that can help propel me to the next level. While on this journey, I plan on learning from those with solid foundations in the tech industry. ',
+    'I am an Afro-Latino, New York native full-stack software developer and currently a software engineer intern at Ranial Systems. With a strong foundation in React and Redux for the front end, and a passion for using Node.js and Express on the backend, I am dedicated to building dynamic and efficient applications. I am always eager to expand my technical expertise, learn new programming languages, and advance my skills. Throughout my journey, I plan to gain valuable insights from experienced professionals in the tech industry.',
   resume:
-    'https://docs.google.com/document/d/1ZULZ0Pm4MjYS9HOgaQvmOTpvpXT3zNjSsEa6CmzIcas/edit?usp=sharing',
+    'https://drive.google.com/file/d/1SH5ndQt3ncyHzAMit1T826EljsAYLyhc/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/jonathanportillo93/',
     github: 'https://github.com/jonathan-portillo',
