@@ -1,12 +1,24 @@
-.skills__list {
-  max-width: 450px;
-  width: 95%;
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+.skills__group {
+  padding: 1.5rem 0;
+  border-top: 1px solid var(--clr-line);
 }
 
-.skills__list-item {
-  margin: 0.5em;
+.skills__category {
+  margin-bottom: 0.4rem;
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: var(--clr-muted);
 }
+
+.skills__items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.2rem 1.4rem;
+  max-width: var(--measure);
+  font-size: 0.95rem;
+}
+
+.skills__items li {
+  white-space: nowrap;
+}
+

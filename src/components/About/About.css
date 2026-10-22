@@ -1,37 +1,66 @@
 .about {
+  display: flex;
   flex-direction: column;
-  margin-top: 3em;
+  align-items: flex-start;
+  margin-top: 4rem;
 }
 
 .about__name {
   color: var(--clr-primary);
 }
 
+.about__tagline {
+  margin-top: 1rem;
+  font-size: 0.85rem;
+  color: var(--clr-muted);
+}
+
 .about__role {
-  margin-top: 1.2em;
+  margin-top: 1.5rem;
+  font-weight: 500;
+  color: var(--clr-fg);
 }
 
 .about__desc {
-  font-size: 1rem;
-  max-width: 600px;
+  margin-top: 1rem;
+  max-width: var(--measure);
 }
 
-.about__desc,
 .about__contact {
-  margin-top: 2.4em;
+  margin-top: 2rem;
+}
+
+.about__contact {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
 }
 
 .about .link--icon {
-  margin-right: 0.8em;
+  margin-left: 0.5rem;
 }
 
-.about .btn--outline {
-  margin-right: 1em;
+.about > * {
+  animation: hero-in 1.2s var(--ease) both;
 }
 
-@media (max-width: 600px) {
-  .app .about {
-    align-items: flex-start;
-    margin-top: 2em;
-  }
+.about > :nth-child(1) {
+  animation-delay: 0.1s;
+}
+
+.about > :nth-child(2) {
+  animation-delay: 0.22s;
+}
+
+.about > :nth-child(3) {
+  animation-delay: 0.34s;
+}
+
+.about > :nth-child(4) {
+  animation-delay: 0.46s;
+}
+
+.about > :nth-child(5) {
+  animation-delay: 0.58s;
 }
